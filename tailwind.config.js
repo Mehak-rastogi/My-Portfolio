@@ -3,14 +3,11 @@ module.exports = {
   content: ["*"],
   theme: {
     fontFamily: {
-      EB: "Reenie Beanie",
-      PF: "Playfair Display",
       CA: "Caveat",
-      Rancho: "Rancho",
       CO: "Chela One",
     },
     screens: {
-      sm: "360px",
+      sm: "480px",
       // => @media (min-width: 640px) { ... }
 
       md: "768px",
