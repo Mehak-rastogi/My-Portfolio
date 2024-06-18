@@ -3,14 +3,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const sidebar = document.querySelector(".sidebar");
 
   toggleSidebar.addEventListener("click", function () {
-    sidebar.classList.remove("invisible");
+    console.log("hello");
     sidebar.classList.toggle("hidden");
-    sidebar.classList.toggle("right-0.5");
-    const list = document.querySelectorAll("li");
-    list.forEach((li) => {
-      li.addEventListener("click", function () {
-        sidebar.classList.add("invisible");
-      });
-    });
+    sidebar.classList.toggle("right-0");
   });
 });
